@@ -59,3 +59,42 @@ HTML Superscript, subscript, small text
 Unit 3: HTML Capabilites
 
 Troubleshooting and denugging HTML Code
+- In this text, we examine HTML elements in browser developer tools, which can reveal information about a website's code and performance. To access these tools, right-click on the demo and select "inspect element" or go to "tools," then "web developer," and choose "inspector."
+- The inspector has three sections: HTML, CSS, and more options. The left pane displays the HTML and Document Object Model (DOM), which the browser creates when sending HTML to Firefox. If the code has an unordered list with incorrect numbers, it's possible that the browser is adding an extra set of tags. To fix this, add a missing slash before the third item and correct the DOM.
+
+HTML Attributes
+- HTML is a complex language that offers additional capabilities through attributes, such as class, ID, and content editable. Class attributes allow for reusable names for elements, which can be styled using CSS. IDs, on the other hand, can only be used once on an entire HTML page and are more specific, making them useful for CSS targeting.
+- They are also useful for addressing specific elements in JavaScript or targeted links. These attributes provide a way to name HTML elements and reference them in other parts of the code stack. Examples of these attributes include the editable block quote element, which allows visitors to edit content on a web page.
+
+ARIA Roles
+- ARIA Roles are additional attributes added to HTML elements to enhance their meaning and help browsers understand their content. They are crucial for websites that are inaccessible for people with disabilities, as it is against the law in many places. ARIA Roles are particularly useful for assistive technologies like screen readers, braille displays, and magnifiers.
+- The accessibility tree, a companion to the DOM tree, is essential for assistive devices like screen readers to provide a better experience. To improve the experience, add an ARIA label to the HTML and hide individual letters within a div element. ARIA Roles are a powerful tool for web accessibility, especially for teams working with semantic HTML or complex application interfaces.
+
+Formatting HTML
+- In HTML, programmers add comments to enhance code readability by explaining its purpose. These comments are ignored by the browser, but code editors like Notepad++ can display commented code in a grayed-out fashion. The uppercase versus lowercase debate in HTML is interesting, as it has evolved over time.
+- In the late 80s and early 90s, HTML was created to optimize file size due to limited computer resources. As technology advanced, it became more important to prioritize code readability and understandability for humans. Newer HTML elements use complete words instead of abbreviations, making it easier for English-speaking individuals to comprehend code. The length of an element also helps determine its existence. Some older elements have no closing tag, but the best practice is to add a slash at the end of elements without one.
+
+Unusual Charactrers
+- HTML symbols <, >, and & are essential for content formatting. However, they disappear when written with spaces, causing the browser to assume it is part of HTML code. To handle this, a character entity (ampersand, short code, and semicolon) is used in HTML files. These entities convert characters into desired ones, replacing instances of greater than or less than symbols.
+- The W3C provides a reference chart for these entities. They can also be used to type characters not available on keyboards, such as copyright symbols. Non-breaking spaces are a unique feature in HTML, allowing the browser to wrap text without breaking the line between two words. They can also be used to create multiple spaces between words, ensuring the desired characters are displayed on the webpage.
+
+Unit 4: HTML Navigation and Linking
+
+HTML Links:
+- Web links have become an integral part of our online lives, with links appearing in various forms such as navigation bars, menus, and article titles. The concept of linking dates back to the 1980s, when computer innovators focused on hypertext, hypermedia, and hyperlinks. The web's birth is a testament to this obsession.
+- To create a link, use the A element (anchor) and an href attribute with a URL enclosed in quotes. The A element can be inline or wrapped around text, images, or complex elements. Absolute URLs, which point to a precise location on the web, can be included without a trailing slash. The HTTPS part, or Hypertext Transport Protocol, defines the rules for communication on the web and is crucial for linking. Nowadays, experts recommend using HTTPS for enhanced security.
+
+HTML URL Pathways:
+- In web development, absolute URLs are used for links, but relative URLs can be used when linking to something within the same site and domain as the page containing the link.
+- all links should point to the local copy of the files, while links on a testing server should direct to pages and files on that server. Relative URLs are useful for referencing image files, video files, CSS, JavaScript files, or any other file path specified. To form a URL from scratch, one must understand file organization and how files are organized into directories or folders. To create a relative URL, omit the domain name but include the initial slash at the beginning, directing the browser to start from the root level of the file structure.
+- Alternatively, write the path to be relative to the file where the link is written. In web development, a clean URL structure is essential for avoiding overlapping links and ensuring the correct file path is used.
+
+Navigation: 
+- To create a main menu bar for a website, wrap each link with the correct URL in an element with the correct URL, enclosed in an "li" element, wrapped in an "ul" element, and wrapped in a "nav" element. Apply CSS styling to give the menu a visual appearance and assign the role of "navigation" to the "nav" element. Include an "aria label" for a descriptive label that can be read aloud by a screen reader
+- Other approaches include creating a breadcrumb trail, wrapping breadcrumb links in an ordered list, and wrapping links in the footer for additional content. Combining HTML elements to layer semantic meaning into content can help make the right choices for projects.
+
+
+Unit 5: HTML Working with Graphics and Images
+
+<b>Images:<b>
+-
