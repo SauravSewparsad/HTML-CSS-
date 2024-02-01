@@ -92,9 +92,40 @@ HTML URL Pathways:
 Navigation: 
 - To create a main menu bar for a website, wrap each link with the correct URL in an element with the correct URL, enclosed in an "li" element, wrapped in an "ul" element, and wrapped in a "nav" element. Apply CSS styling to give the menu a visual appearance and assign the role of "navigation" to the "nav" element. Include an "aria label" for a descriptive label that can be read aloud by a screen reader
 - Other approaches include creating a breadcrumb trail, wrapping breadcrumb links in an ordered list, and wrapping links in the footer for additional content. Combining HTML elements to layer semantic meaning into content can help make the right choices for projects.
+--------------------------------
+Day 3: I continued making summaries on unit 5 and then i began implementing all the skills i have learned from those units.
 
+# Summary of units
 
-Unit 5: HTML Working with Graphics and Images
+unit 5: HTML Working with Graphics and Images
 
-<b>Images:<b>
--
+Images:
+- Images are essential for the web and should be included in an image element, written as an IMG.
+- Four attributes are necessary for every image: source attribute (SRC), alt attribute (ALT), width and height attributes. The source attribute tells the browser which image file to load, the alt attribute provides a text description of the image, and the width and height attributes determine the image's size.
+- The ALT attribute serves as a replacement for the image when it cannot be seen. The width and height attributes are necessary for the browser to determine how to display the image after it has been loaded and displayed on the page. This helps in preventing the page from shifting around as the images load, ensuring a smoother reading experience.
+
+Image Formats:
+- GIFs compress large, color-saturated illustrations but may not be suitable for photographs due to limited color support and potential pixelation, and may cause jagged edges between transparent and solid parts.
+- SVGs, a programming language for graphics, are ideal for logos, icons, and illustrations due to their small size and ability to scale without loss of quality.
+- JPGs are commonly used for compressing photographs, but web sites should avoid using large, half-compressed images. Balancing quality and file size is crucial.
+- PNG is a transparent, compressable format that outperforms GIF and JPG in image compression. Future image formats may offer even better compression capabilities.
+
+Responsive Images:
+- CSS can display images in different sizes to accommodate large and small screens, but it can be problematic for users with slow network connections or limited data plans. To address this issue, HTML allows for the delivery of different image files to screens of different sizes. To do this, create multiple image files with different resolutions and inform the browser about these options. The device can choose which image to use based on factors like screen density, network connection, and user settings.
+- To handle different image sizes for retina and high DPI screens, add a source set attribute to the HTML code, which lists the images on offer, separated by commas. The browser will swap out one version of the image for another based on what it considers best. This technique is ideal for handling different image sizes for retina and high DPI screens.
+
+Responsive Width:
+- The image element and src set attribute can display images based on screen pixel density and viewport width.
+- However, this can lead to issues if the chosen image doesn't fit the desired layout. To address this, use the sizes attribute in HTML to specify the image to use at different breakpoints.
+- This allows the browser to download the right-sized image for the layout, considering network conditions and user preferences. This allows the browser to make intelligent decisions based on device density and viewport width.
+
+Responsive Pictures:
+- The source set in the sizes attribute can be used to offer multiple image files to the browser, allowing it to decide which one to load and display. This can be useful for displaying different images on different screen sizes, such as mobile devices or desktop computers.
+- To optimize images on the web, use techniques like picture, source, and source set. The source set attribute points to a mobile image file, sized at 320 pixels wide, and the other source element specifies the image for larger screens, sized at least 600 pixels wide.
+- The browser switches between files, using the larger ones only when necessary, considering both the viewport size and the retina screen. This optimization process benefits everyone, as the image files in this demo range from 27k to 593k, resulting in a difference of half a megabyte per photo.
+- This can save up to three megabytes of data if a web page has six photos and saves users 500k per photo.
+
+Figcaption and Figures:
+- To match a caption to an image on a web page, use figures and figcaption elements. For example, show a dog picture and add a caption using figcaption. Then, put the image and caption together in a figure element, providing more information about the content.
+- Figures can be used for interactive graphics and visual illustrations, making them useful for demonstrating concepts.
+
