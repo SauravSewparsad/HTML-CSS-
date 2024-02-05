@@ -132,6 +132,7 @@ Figcaption and Figures:
 Day 4: I put the tutorial i was watching on hold and proceeded to study and prepare myself for my assessment on friday. I did excersies to prepare for the practicale and a quiz to prepare me for the multiple choice.
 
 Day 5: Today is assessment day and i went in nervouse and prepares, i earned a 80% for the assessment. After words i began to follow the tutorial i was previously watching on tuesday for the rest of the day and making it a 1/4 through.
+
 -----------------
 ## Week 2:
 
