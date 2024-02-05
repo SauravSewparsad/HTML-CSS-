@@ -143,6 +143,71 @@ Unit 6: Working with Media
 
 Working with audio
 - Audio is more powerful and flexible than images. There are many types of audio format, but for now we will keep it to MP3 files.
-- <code> &lt audio controls src="audio.mp3"&gt &lt/audio &gt </code>
+- We need to let the browser know that we want it to provide some contols.
+- The audio player control can be created using JavaScript and the HTML media element API. It allows users to play, pause, adjust volume, view time, and navigate through the timeline. The audio element demonstrates the power of HTML, providing functionality without having to build it from scratch.
+- It also has an opening and closing tag and fallback text for if the browser doesn't understand it. The source element can specify multiple audio files, similar to the picture element. This can be helpful if a new file format is not supported in all browsers while providing a fallback for older ones.
 
+Working with Video
+- The web has revolutionized the way we connect and share content, including movies, TV shows, and teaching. The HTML video element allows users to easily display videos on web pages using an opening and closing tag.
+- there are two issues to address: video encoding and the compatibility of different codecs. H.264, a patented codec, is not open source and requires licensing fees for devices, operating systems, and cameras. AV1, an open and non-patented video codec, has been developed to address this issue.
+- The WebM versus AV1 debate remains uncertain, but recent developments suggest AV1 may be the superior codec and free of royalty charges. HTML allows for multiple source files, enabling simultaneous use of different codecs.
+- HTML lacks a built-in mechanism for sending different video sizes based on network conditions. Major streaming platforms like Netflix, Hulu, HBO, YouTube, and Vimeo use adaptive bitrate streaming to ensure seamless switching between different resolutions as users watch videos.
+
+Working with Captions and Subtitles
+- Captions and subtitles are essential for making content accessible and engaging for viewers.
+- The web allows for multiple ways to provide content, such as using a track element and a text file to add captions to a video. The web uses a file format called ibvtt, which stands for web video text tracks, with each line of text accompanied by a time code.
+- To display captions on the video, insert a track element within the video element, specifying the file, kind attribute, label attribute, source lang attribute, and default attribute. A captioning icon appears, allowing users to toggle captions on and off, enable automatic captioning, or select English captions.
+- Other options include "descriptions" and "chapters," which provide text files listing video sections. Platforms like YouTube and Vimeo allow users to upload caption files, making content more accessible and potentially increasing audience base. By including captions, content can be more accessible and inadvertently grow.
+
+Embedding Media via Iframes
+- Embed complex content from services like Google, CodePen, or Speaker Deck onto a website using someone else's toolkit.
+- HTML knowledge is not necessary, but understanding the iframe element and its attributes can help. Security issues should be considered when using content management systems like WordPress or Drupal.
+- Consult someone who knows how to use CMS effectively for embedding YouTube videos. When building a website, consider security aspects related to the iframe element, ensuring not all iframes are allowed without considering security measures.
+
+Unit 7: HTML Content Identifications
+
+HTML Language Support
+- In HTML, it is crucial to indicate the language of a webpage to ensure search engines understand the language it is processing.
+- The lang attribute is used to specify the language of a webpage, which can be set on the main element that wraps everything else, usually the HTML element.
+- It has many options to indicate language or regional versions of a language, as well as other qualities like the writing system used. If a webpage has multiple languages, specify the language for each part of the content.
+- The dir attribute can be applied to any element to indicate the direction of the content. When there is a mix of content, ensure to indicate the change in direction for each phrase.
+- The charset for your project is also important, as each language uses its own set of characters or alphabet. Unicode, particularly UTF-8, is widely used to encode content to support a vast range of characters, scripts, and emojis. To specify the charset in HTML, include a meta charset tag equal to UTF-8 within the head element on every page of the website.
+
+HTML Generic elements, Div and Span
+- HTML elements like div and span are useful when an element is needed that doesn't exist. Divs and spans were heavily used before HTML5 introduced semantic elements, but they are not good practice and can negatively affect users.
+- Instead, developers should opt for the appropriate HTML element that serves the purpose. Divs are block-level elements, while spans are inline elements that do nothing until CSS or Javascript is applied.
+- Similarly, an inline element can mark a specific phrase in a text. Both div and span can use global attributes like class, id, lang, and aria roles. Div and span are useful when there is no other suitable element, but should be used wisely.
+
+Unit 8: HTML Integration
+
+HTML Page
+- HTML files are essential for creating websites and web apps. When a user visits a website, they enter a URL and the web server sends a specific HTML file
+- In the past, everything needed to display a webpage was contained in a single HTML file, along with images. Today, the process of the web remains the same, with text stored in databases, multiple static files combined in real-time, and additional files for images, video, audio, and ads.
+- The structure of the HTML file is crucial, with the build system or CMS having templates or theme files that determine what gets sent. The HTML file should begin with a doctype statement, indicating the era of the HTML file.
+- The HTML element, which contains all content, is enclosed within an HTML element, with the opening and closing tags at the top and bottom. The head and body elements are used to create the content, with the head containing metadata and the body containing content.
+
+Document Head
+- The head of a webpage contains crucial information for the browser, such as the character set and the title element. The meta element is used to provide metadata about the page, such as setting the character set to UTF-8.
+- The title element is required on every webpage and appears on the browser tab or bookmark when saved. The meta element informs the browser that the layout has been adjusted to fit small screens, making the page responsive.
+- It also includes a description of the site, assigns a name to the webpage when saved to the home screen, and specifies a tile image and background color. The link element connects assets like CSS files, fonts, and favicons, with the rel attribute indicating the asset type.
+- The href attribute specifies the URL for the asset, and the script tag instructs the browser to load a JavaScript file.
+
+Content Structuring
+1. Main
+  - The main element is used once per webpage and tells the browser where the main content is located
+2. Header
+- Header and footer elements indicate page areas, while header is file metadata, used for site, article, and content headers, typically at the top of web pages.
+3. Footer
+  - The footer signifies that there are extra things to convey, regardless of its position on the page.
+4. Article
+- Article elements include title, subtitle, author's name, publication date, footer, and metadata. They wrap around content units like articles, snippets, teasers, tweets, or apps.
+5. Section
+  - The section element is utilized to mark content sections, such as long essays with subheadings, and to divide different topic zones on a website, starting with a headline.
+6. Aside
+  - The aside element is used for sidebar information or additional details, transferring meaning from the design to the content, regardless of its position on the page.
+
+When it all comes Together
+- Web pages consist of hundreds of nested elements, each conveying meaning and playing off the other.
+- To mark up a page, explore the web, find similar sites, and use developer tools.
+- The correct way to combine HTML elements depends on the content and page purpose. Structuring HTML is an art, with creative freedom and the goal of representing human communication in code.
 
