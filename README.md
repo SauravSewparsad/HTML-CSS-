@@ -143,6 +143,6 @@ Unit 6: Working with Media
 
 Working with audio
 - Audio is more powerful and flexible than images. There are many types of audio format, but for now we will keep it to MP3 files.
-- <code> &lt audio controls src="audio.mp3"&gt &lt/audio &gt <code>
+- <code> &lt audio controls src="audio.mp3"&gt &lt/audio &gt </code>
 
 
