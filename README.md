@@ -128,11 +128,11 @@ Responsive Pictures:
 Figcaption and Figures:
 - To match a caption to an image on a web page, use figures and figcaption elements. For example, show a dog picture and add a caption using figcaption. Then, put the image and caption together in a figure element, providing more information about the content.
 - Figures can be used for interactive graphics and visual illustrations, making them useful for demonstrating concepts.
-
+-----------------
 Day 4: I put the tutorial i was watching on hold and proceeded to study and prepare myself for my assessment on friday. I did excersies to prepare for the practicale and a quiz to prepare me for the multiple choice.
 
 Day 5: Today is assessment day and i went in nervouse and prepares, i earned a 80% for the assessment. After words i began to follow the tutorial i was previously watching on tuesday for the rest of the day and making it a 1/4 through.
-
+-----------------
 ## Week 2:
 
 Day 1: Today i will be learning units 6 - 9 for today and also begin working on my groups business website
@@ -211,3 +211,24 @@ When it all comes Together
 - To mark up a page, explore the web, find similar sites, and use developer tools.
 - The correct way to combine HTML elements depends on the content and page purpose. Structuring HTML is an art, with creative freedom and the goal of representing human communication in code.
 
+Unit 9: Working with Forms and Interactive Elements
+
+Form Fundamentals
+- Form fields are crucial for various web tasks, such as logging in, making purchases, and adding content. Using semantic form elements in HTML allows us to leverage the built-in power of the browser and ensures compatibility with all devices and input/output hardware.
+- To create a simple form for an email newsletter, start with the form element, which informs the browser about the presence of a form using opening and closing tags. Use the input element to provide places for users to input their name and email, which acts as a marker for the browser to bring in functionality.
+- A button is needed for users to submit the form. To make it accessible, add a "for" attribute to the label that matches the "id" attribute of the input or wrap the input with the label. Test the connection by clicking on the label to ensure focus jumps to the corresponding input.
+
+More Form Functions
+- The task is to create a form for collecting name and email addresses for email newsletter sign-up. The input elements currently collect text, but the browser needs to determine the required input type. To fix this, add the type attribute to each input, indicating that type equals text for the name field and email field. The browser will verify that the data entered is an email, and warn users if they type anything other than an email.
+- Inform the browser that the button is a submit button and add a required attribute to make the email feel required. The browser will insist that the user fills out the email field before the form can be submitted.
+- Add a placeholder or default value to pre-populate the field with real content, such as email addresses. This helps users understand what to do and avoids the need to manually erase the suggested text.
+- In summary, creating a form with input elements that collect name and email addresses is crucial for effective email newsletter sign-up.
+
+Other Form Element Types
+- A form is a basic structure that can be customized using CSS and semantic HTML elements to create a custom look and feel. It can be used to collect various types of data, such as passwords, search, and phone numbers.
+- The password field is set to password, search to search, and phone number to tel.
+- Some browsers may display an integrated password manager for faster password input. The search field may have a different keyboard layout, and the phone number field may prompt a telephone pad for input. To collect larger passages of text, the text area element should be used, and the browser provides interfaces for both.
+- Input types include date, color, and file. The date input type allows for date setting, while the color field opens a color picker. The file field allows uploading a file. A select list can be created using select and option elements, and checkboxes or radio buttons can be set to checkbox or radio.
+--------------------------
+
+With the summarry of the current units done i then proceeded to complete the tutorial video for the rest of the day.
