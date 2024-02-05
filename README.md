@@ -129,3 +129,15 @@ Figcaption and Figures:
 - To match a caption to an image on a web page, use figures and figcaption elements. For example, show a dog picture and add a caption using figcaption. Then, put the image and caption together in a figure element, providing more information about the content.
 - Figures can be used for interactive graphics and visual illustrations, making them useful for demonstrating concepts.
 
+Day 4: I put the tutorial i was watching on hold and proceeded to study and prepare myself for my assessment on friday. I did excersies to prepare for the practicale and a quiz to prepare me for the multiple choice.
+
+Day 5: Today is assessment day and i went in nervouse and prepares, i earned a 80% for the assessment. After words i began to follow the tutorial i was previously watching on tuesday for the rest of the day and making it a 1/4 through.
+
+## Week 2:
+
+Day 1: Today i will be learning units 6 - 9 for today and also begin working on my groups business website
+
+# summary of units
+
+
+
