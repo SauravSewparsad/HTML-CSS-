@@ -233,3 +233,13 @@ Other Form Element Types
 --------------------------
 
 With the summarry of the current units done i then proceeded to complete the tutorial video for the rest of the day.
+
+Day 2: In day 2 i decided to begin working on the website for my groups project. I started with the home page that will have a navigation bar, a video and an about us section. Me and my group originally decided on a hotel booking system and then decided to change it because more groups were doing the same thing. We changed to a restaurant website that will let the user book a table or ask for delivery.
+
+Close to the evening i created the home page as well as the menu for the website. For now me and my team decided to focus on the delivery aspect of the website. I then pushed the project to github so everyone else can have access to the project.
+
+Day 3: Coming back to the office the team created a login and registration page for the website. After looking at the improvements with the website, we held another group meeting and talked about what would be added. After talking about what to add, i then volenteered to create the power point for the presentation and i spent the whole day looking for a good presentation to create and help with bug fixing.
+
+Day 4: Today we ran into a problem with push and pulling commits from git hub but apon further inspection it was a device error because everyone else in the group could submit so that problem was sorted after helping set the person up on local computer. The i spent the rest of the day creating the power point.
+
+Day 5: Today the gourp and i finished up the website and began working on what we were going to say, luckily the presentation was moved to monday so we had more time to practice. While my group members worked on what to say for the presentation i kept working on the power point eager to finish it today.
