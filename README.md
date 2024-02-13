@@ -247,7 +247,7 @@ Day 5: Today the gourp and i finished up the website and began working on what w
 #Week 3
 Day 1: The whole of Monday the whole of capaciti ABSA did their presentations infront of the invidulators and other groups as well as demoing their websites.
 
-Day 2: For today we got a teams message saying that we need to learn unit 10-11 for into to HTML as well as starting into to CSS units 1-3. We will also be doing out second assessment this friday from units 5-9 with units 10-11.
+Day 2: For today we got a teams message saying that we need to learn unit 10-11 for into to HTML as well as starting into to CSS units 1-3. We will also be doing out second assessment this friday from units 5-9. The invidulators would also like us to touch on units 10-11 and to start HTML & CSS intermediate Units 1-3.
 
 # Summarry of Units
 
@@ -316,4 +316,62 @@ Moduale Summary:
 
 Re-cap Intro to HTML
 - The module concludes with a reminder of the ongoing evolution of HTML and the abundance of online resources available for further learning and quick reference.
-- <b>MDN Web</b> docs are 
+- <b>MDN Web</b> docs provides authoritative HTML reference documentation, including element and attribute descriptions, code examples, browser support charts, and links to specific technologies. It also offers advice on combining HTML elements for specific use cases and content types.
+- <b> HTML Specifics</b>
+ The specification is the canonical source of truth about any web technology, including HTTP, URL, HTML, CSS, and JavaScript. It is created by a group of people who collaborate on a plan for each technology. These decisions are documented in official documents called specifications, which are closely followed by browser engineers when adding new features.
+The HTML specification, most recently numbered version five, is the current version of HTML. It is constantly changing and may eventually be declared HTML6. Some people argue that the Living Standard, a slowly changing specification without a number, is the current version of HTML. It is available for reading, and a simplified version is available for designers and developers.
+
+- <b> WCAG Guidlines </b>
+We also recommend putting some time into learning more about ARIA and accessibility in general. A great place to start is with the WCAG guidelines. W-C-A-G stands for Web Content Accessibility Guidelines. It is the official W3C specification on accessibility best practices. You can read the WCAG specifications or search for WCAG or ARIA to find more resources.
+
+- <b> CSS </b>
+We strongly advise you to learn CSS. Knowing both HTML and CSS makes for a powerful combination. HTML does not change very often, so knowing these essential foundations will set you up for a long time.
+
+Trying to memorize everything is futile. We all forget things. Just look it up when needed and do not be embarrassed when you are unsure which element to use or cannot quite remember what an attribute's called. Search the web, look it up, and then get it right. Your projects will be better for it and your users will thank you.
+---------------------------------
+# HTML & CSS 102 - Introduction to CSS 
+Module focus
+CSS, short for cascading style sheets, is the language that controls the pretty stuff on websites. This course aims to give you a beginner-friendly introduction to CSS, even if you have no prior experience with it. 
+
+HTML and CSS work hand in hand to create the visual aspects of a webpage. By learning the basics of CSS, you will be able to effectively collaborate and communicate with your developer team. It is recommended to have foundational HTML knowledge before diving into this course.
+
+In this module, you will learn how to:
+
+Apply CSS to your web pages.
+Use Selectors.
+Manage colors and multimedia using CSS.
+Apply the Box Model.
+Work with links.
+
+Unit 1: HTML & CSS
+
+What is CSS?
+- A style sheet is like a CSS file that holds all the styles for your webpage. This adds visual appeal to your webpage. To connect the HTML and CSS, you simply link them together. HTML and CSS are closely connected and work hand-in-hand but before we dive into CSS.
+- HTML recognizes common elements like paragraphs, headings, lists, and links, defining webpage structure. Raw HTML appears ugly in web browsers, but CSS helps improve appearance by changing font, colors, and spacing, making pages readable and understandable.
+  CSS has two parts: 
+The selector. 
+The declaration block
+- The selector in HTML matches a pattern, causing styles within the declaration block to be applied to the corresponding elements, with cascading in CSS allowing multiple styles.
+
+CSS Components
+- In CSS, each style decloration consists of two parts: A property and a value.
+- This course focuses on select properties and values in CSS, emphasizing the importance of the selector in HTML. Initially, unattractive web pages will be created, but by the end, pages will improve with the incorporation of key styles.
+
+Unit 2: Adding CSS Sectors
+Writing Your First Comment and Element Selector
+- CSS selectors are used to create styles for various elements on a page. The first type is the element selector, which can be used to select paragraphs and make them blue.
+- For example, to make all H2s red, the selector "H2" can be used. To create styles for heading one (H1) and heading three (H3) elements, choose any desired colors for each text. To learn more about CSS selectors, refer to the 01-01-End state of the Sublime Text in your Exercise Files.
+
+Writing a class sector
+- You can assign classes to HTML elements to create a reference point for styling. A class is an attribute that can be added to any HTML element, providing additional details about that element.
+- To style a paragraph, add a class attribute to the paragraph tag and give it a name like "intro" to make it stand out. In CSS, use a dot (.) before the class name to differentiate it from HTML element selectors. For specific paragraph parts, use a span element with a class attribute, like "guarantee" to make the sentence orange and bold. In both cases, set the color and font-weight accordingly.
+
+Grouping selectors
+- If i want to make a certain item green i could do something like this "li {green}", but if i want to make more then 1 item green then i need to combine the "p" and "li" , "p li {green}"and it will apply it to all paragraphs even list.
+- If we want to be more specific on the type of color we want the text to be then we need to  specify it, For example: if we want to make the text mineral green then we would add ,.mineral to the sector where .mineral is the class then in a HTML we specify by adding "spanmineral" mineralwater </s pan" his will make the word "mineral water" green too. So whenever you see selectors grouped together with commas, it means each of those items is a separate selector. Whether it is paragraphs, list items, or anything with the class "mineral," the text will be styled as green.
+
+Decendent sectors
+- The first list is an ordered list with mineral water as the main ingredient, with minimal natural raspberry flavor. The second list is an unordered list with different flavors. To style, group paragraphs, list items, and elements with "mineral" class, style ordered items blue and bold, and unordered items purple and uppercase.
+- A descendant selector allows us to select list items that are descendants of either an ordered or an unordered list. The relationship can be direct or indirect, similar to a family tree.
+- To apply styles using a descendant selector, use the code "OL LI" without the body tag. Set the color to blue and font weight to bold, affecting only list items in the ordered list. Remember to read CSS selectors from right to left, as they are read from left to right.
+- Create a style that selects list items in the unordered list and makes them purple and uppercase. Check the code pen's final state in the exercise files for accuracy.
