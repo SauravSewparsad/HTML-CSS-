@@ -243,3 +243,77 @@ Day 3: Coming back to the office the team created a login and registration page 
 Day 4: Today we ran into a problem with push and pulling commits from git hub but apon further inspection it was a device error because everyone else in the group could submit so that problem was sorted after helping set the person up on local computer. The i spent the rest of the day creating the power point.
 
 Day 5: Today the gourp and i finished up the website and began working on what we were going to say, luckily the presentation was moved to monday so we had more time to practice. While my group members worked on what to say for the presentation i kept working on the power point eager to finish it today.
+----------------------------------------------
+#Week 3
+Day 1: The whole of Monday the whole of capaciti ABSA did their presentations infront of the invidulators and other groups as well as demoing their websites.
+
+Day 2: For today we got a teams message saying that we need to learn unit 10-11 for into to HTML as well as starting into to CSS units 1-3. We will also be doing out second assessment this friday from units 5-9 with units 10-11.
+
+# Summarry of Units
+
+Unit 10: Organizing Tabular Information in HTML
+
+HTML Tables
+- HTML tables are not evil and should be used for tabular data. However, misuse of table elements is not acceptable. The purpose of semantic HTML is to communicate with computers, so use button elements for buttons and table elements for tables. The fear of HTML tables stems from the scrambled messages.
+- During the early days of the web, there was no proper tools for styling or layouting content. People used to typeset headlines in Photoshop and export them as images, but this was not an actual headline. Instead, they used HTML tables to break up content into pieces, which was a terrible hack due to its lack of accessibility and reusability. HTML email still uses this technique, but it is not the best use of tables. Instead, they should be used for tabular data.
+- A data table is a chart of information that is best communicated by aligning it into rows and columns. It is used for comparing prices, population data, election results, product comparisons, and schedules. The data can be numbers, text, images, or other types. Tables in HTML help convey relationships between data cells and header cells, making it more clear and concise. CSS can be used to rearrange table display and layout for different screen sizes. If the information is inherently a table, then use an HTML table.
+
+Building HTML Tables
+- To create a HTML table you need to use several elements in just the right combination. Table, TR, TH, RD
+- The table element wraps around the whole table, all the content and markup of the table, making it the beginning and end of the table. The TR element stands for table row and it wraps around a set of elements defining them as belonging to the same row. The TH element stands for table header and defines the header for each column. The TD stands for table data and marks up the cells of data.
+- A table with six rows and five different birds is created using the TR element. The content is placed inside each row, with the American goldfinch being the first bird. The TD element wraps the content and image, and any HTML markup is placed inside. The table has four columns, with data in each row.
+- To make the table look more like your choice, add styling and CSS to the header content. Place the content in the first row, wrapping each in a TH element instead of a TD element. Use CSS to change the header's appearance, ensuring proper pronunciation and easy style changes for the table.
+
+Unit 11: Course Project - Build Your Personal Portfolio
+- The "Build Your Personal Portfolio" project offers aspiring web developers a hands-on experience to enhance their HTML and CSS skills by creating a personalized portfolio website, serving as an online resume for potential employers.
+
+Part 01:Introduction to HTML
+- This part gives a scenerio and how you would go around creating the poe.
+- The scenerio is A web developer creates a personal portfolio, including bio, skills, projects, and contact information. HTML structure, images, clickable links, and interactive forms for visitor feedback are essential. To go about doing this you will need to know the basics of HTML and then implement CSS.
+- Objective Design
+
+1.  Understanding HTML Syntax:
+
+a. Create a basic HTML document with necessary structure.
+
+b. Use various HTML elements to structure content effectively.
+
+2. Formatting and Styling in HTML:
+
+a. Apply formatting options to text content.
+
+b. Implement inline and block-level elements for proper styling.
+
+3. Incorporating Images and Hyperlinks:
+
+a. Embed images and provide alternative text.
+
+b. Create hyperlinks to external projects and resources.
+
+4. Utilizing Global HTML Attributes:
+
+a. Apply global attributes such as 'class' and 'id' for styling and identification.
+
+5. Developing Navigation Menus and Forms:
+
+a. Create a navigation menu using lists.
+
+b. Construct interactive forms for user engagement.
+
+6. Organizing and Structuring Content:
+
+a. Understand and implement semantic HTML elements.
+
+b. Organize content with proper document structure.
+
+7. Constructing Tables:
+
+a. Build tables to display project or skill-related data.
+
+- This project teaches learners to create a functional personal portfolio website, showcasing their skills and work. It includes a professional bio, skills display, completed projects, and contact form. This project enhances their understanding of HTML and CSS.
+
+Moduale Summary:
+
+Re-cap Intro to HTML
+- The module concludes with a reminder of the ongoing evolution of HTML and the abundance of online resources available for further learning and quick reference.
+- <b>MDN Web</b> docs are 
