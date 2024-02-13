@@ -375,3 +375,33 @@ Decendent sectors
 - A descendant selector allows us to select list items that are descendants of either an ordered or an unordered list. The relationship can be direct or indirect, similar to a family tree.
 - To apply styles using a descendant selector, use the code "OL LI" without the body tag. Set the color to blue and font weight to bold, affecting only list items in the ordered list. Remember to read CSS selectors from right to left, as they are read from left to right.
 - Create a style that selects list items in the unordered list and makes them purple and uppercase. Check the code pen's final state in the exercise files for accuracy.
+
+Unit 3: CSS Images ad Colors
+ Identify a Color Scheme
+ - Color palettes are essential for selecting a color scheme or specific colors for a website. If you have a design background, you can create one yourself. If you struggle with color choices, resources like Canva and Google's color palette generators are available. Canva is a friendly graphic design companion for non-designers, offering three methods for creating color palettes. The first method is displayed at the top of their webpage and can be found in your exercise files folder. Another option is to try their demo image.
+ - Explore various color palettes, such as "Rosettes and Cream," to create designs with inspired colors and related combinations. Click on a palette to view a picture and explore options with purple.
+ - Clicking the back button allows users to create a custom color palette by selecting their initial color and the system generates a complementary color combination.
+ - Users can use color combinations like monochromatic, analogous, triadic, or tetradic to find matching colors. They can adjust color saturation or try variations. If using the color wheel is too advanced, users can browse available palettes categorized by keywords or upload images to generate a color palette.
+
+Formatting Colors CSS
+- The color chart provides examples of named colors, but your color palette may not have any. If the desired color doesn't have a name, hex codes, also known as hex values or hex format, are the most common online representation.
+- Hex values are typically six-digits long and consist of numbers zero to nine and letters A to F. The first two digits represent red, the next two represent green, and the final two represent blue. These digits correspond to numbers ranging from zero to 255.
+- RGB format uses Base 10 numbers to represent colors, including red, green, and blue, and can be represented as RGBA or RGBA. Alpha represents opacity and transparency, determining color visibility. Other color formats like HSL or HSLA may also be used.
+
+Background and Text Colors in CSS
+- We can also change the background color for elements. By using the "background-color" property and specifying a hex color, color the background behind specific elements. For readability, adjust the text color as well. For instance, set the text color to white using the hex code "FFF" or "FFFFFF" for a white background.
+- To style an unordered list (ul), use a beige color from Canva as the background. The "body" HTML element can also be styled with a specific color like yellow. This allows for customization of the entire page's background color. You can select colors from the named color palette or create custom colors using Canva.
+
+Understanding Images in CSS
+- Images are frequently found on webpages. They can be added either in HTML or CSS. Firstly, we will discuss the image formats suitable for the web, and then explore how to include images using HTML and CSS.
+- There are various image formats, like GIF, PNG, JPEG, bitmap, TIFF, and more proprietary formats like PSD. Traditionally, the web has supported three types of image formats. 
+
+GIF:  Had limited colors but could include transparency and animation. 
+PNG:  Had more colors and transparency but no animation. GIF and PNG were suitable for illustrations such as logos or cartoons. 
+JPEG:  Stands for Joint Photographic Experts Group, was optimized for photographs and supported millions of colors but lacked transparency and animation
+
+- WebP is a new image format that offers high compression for smaller file sizes, resulting in faster website loading times. It is expected to grow in popularity due to its versatility and efficiency in loading photos and illustrations quickly.
+- To optimize image downloads, it is important to choose the right format, such as GIF, adjusting dimensions, trimming or cropping unnecessary parts, and resizing. Images taken directly from mobile phones or cameras are usually large and take longer to download.
+- Tools like tinypng.com or Adobe Photoshop can be used to reduce image file sizes, improving website loading speed and user experience. Images can be included in webpages using HTML and CSS.
+- HTML uses the image element to place images alongside text, while CSS allows for background images, which are decorative and not essential to the webpage's text.
+----------------------------
