@@ -405,3 +405,4 @@ JPEG:  Stands for Joint Photographic Experts Group, was optimized for photograph
 - Tools like tinypng.com or Adobe Photoshop can be used to reduce image file sizes, improving website loading speed and user experience. Images can be included in webpages using HTML and CSS.
 - HTML uses the image element to place images alongside text, while CSS allows for background images, which are decorative and not essential to the webpage's text.
 ----------------------------
+Day 3: Today i was doing HTML & CSS exercise in freeCodeCampe and i continued this for the whole day.
