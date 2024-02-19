@@ -326,10 +326,10 @@ We also recommend putting some time into learning more about ARIA and accessibil
 
 - <b> CSS </b>
 We strongly advise you to learn CSS. Knowing both HTML and CSS makes for a powerful combination. HTML does not change very often, so knowing these essential foundations will set you up for a long time.
-
 Trying to memorize everything is futile. We all forget things. Just look it up when needed and do not be embarrassed when you are unsure which element to use or cannot quite remember what an attribute's called. Search the web, look it up, and then get it right. Your projects will be better for it and your users will thank you.
 ---------------------------------
 # HTML & CSS 102 - Introduction to CSS 
+
 Module focus
 CSS, short for cascading style sheets, is the language that controls the pretty stuff on websites. This course aims to give you a beginner-friendly introduction to CSS, even if you have no prior experience with it. 
 
@@ -406,3 +406,59 @@ JPEG:  Stands for Joint Photographic Experts Group, was optimized for photograph
 - HTML uses the image element to place images alongside text, while CSS allows for background images, which are decorative and not essential to the webpage's text.
 ----------------------------
 Day 3: Today i was doing HTML & CSS exercise in freeCodeCampe and i continued this for the whole day.
+Day 4 - 5: during the last 2 days i have just been doing excersises in freecodecamp and studying for the assessment we did on friday.
+----------------------------------------------
+# Week 4
+Day 1: Today i am going to do summary on units 4 - 6 in the CSS and then i will focus on building my portfolio and improve on my teams website.
+
+# Summary of units
+Unit 4: CSS Boxes, Types and Sizes
+Understanding Type in CSS
+- In general, people who are not designers usually categorize fonts into two types: 
+1.Serif.
+2.Sans serif.
+- Serif fonts have small lines at the ends of the letters called serifs. In the past, serif fonts were used for printed materials with long text blocks. When letters were manually set on a printing press, they were never perfectly aligned. The serifs helped connect the letters, making the text easier to read.
+- Sans serif fonts have a modern appearance and are commonly used on the web for extended text due to their clean and easy-to-read appearance. The default font on the web is usually Times New Roman, but this depends on the font's source and device compatibility.
+- To ensure compatibility, font stacks are often specified, including Arial, Helvetica, and sans serif. Other fonts safe to call from user devices include Verdana, Times, Times New Roman, Georgia, Trebuchet MS, and Comic Sans.
+- Google offers over a thousand fonts for website use, sourced from the internet and loaded into the web browser. This course focuses on basic fonts on user devices. In real-world scenarios, development teams guide on font stacks in CSS.
+
+Applying Type Formatting with CSS
+- To improve the appearance of a webpage, add a font-family property to the body element and use a font stack of Arial, Helvetica, and Sans-serif.
+- The web browser will evaluate these fonts in order, and if neither is available, the default Sans-serif font will be used. When Arial is removed, the plus sign shifts slightly, indicating Helvetica is the default Sans-serif font.
+- It's important to note that perfect control over fonts across all devices is not necessary. Using multiple fonts can make the page look professional, and headings can be contrasted with a different font.
+- Using multiple fonts on a page can enhance its professionalism and contrast headings with a different font across all devices.
+
+Understanding and applying Size in CSS
+- Web design uses absolute and relative sizing. Absolute sizes remain constant, while relative units adjust based on page size. Web designers prefer relative units for flexibility, as font sizes scale proportionally with the page.
+- Web developers prefer the "rem" font size unit, which is equivalent to 16 pixels. Multiplying a font size by 16 yields a pixel size of approximately 24 pixels, while 0.8 rem is roughly 13 pixels. Online calculators can help with these calculations.
+- The Point to REM Converter tool on codebeautify.org converts web design sizes to pixels, a useful tool for those preferring points in print design, allowing conversion between web and print units.
+
+Understanding Box model in CSS
+- HTML elements are like boxes with properties, including content, border, padding, and margin. Content is the text inside the box, while border is a line surrounding the content. Padding is the space between the border and content, with its own background color.
+- To add a red border to a slide, use the CSS property "border: 1px solid red". For margins, use "margin: 1rem" to add one root em (root em) to all four sides, or "margin-right" to add the margin to the right side. Padding provides flexibility with fractional REMs for all or only one side.
+
+Working with Border, Padding, and Margin in CSS
+- The text discusses the issues with an image added to a page, including incorrect background leaves and spacing problems. To address these, the body element's default margin is set to zero, and the leaves are positioned 97% down the page.
+- A footer element is added, and the background image is moved from the body to the footer. The headings have margins, but the text looks cramped against the edges.
+- To create space, the padding property is used, and a decorative border is added at the bottom. The H2 and H3 headings have separate margins, and the top margin is set to zero and padding is added.
+- The image is centered within a paragraph with a class of "circle" and the text-align property is set to center.
+- The border-radius property allows for rounded corners, and the text-align property is set to center.
+- By applying these CSS modifications, the page looks better with minimal CSS, allowing for a well-designed page with proper spacing and fonts.
+
+Unit 5: Advanced CSS Properties and Concepts
+
+Styling links with CSS
+- Chrome's guest tab doesn't show visit history for certain courses, making links appear unvisited. To fix this, use HTML and CSS to style links. Specify a color code like dc267f to change text color, but links remain default blue. Use the "a" anchor tag to target links and set the color to 648fff, a nicer blue color. This will apply to all links, including visited ones.
+- The "a:hover" state triggers when a link is hovered over, allowing color changes and underline removal. This feature was previously unavailable. To separate styles for visited and unvisited links, define blue as the "a:link" style for unvisited links and purple as the "a:visited" style for visited links. The hover style remains intact.
+- In general, when you have links within long text, it is important to keep the underlines. This is especially helpful for people who may be colorblind or have disabilities that make it difficult for them to differentiate between the link and the surrounding text. However, if your links appear in a navigation bar or any other area where users expect to click and be redirected, you can remove the underlines in those specific situations. These are just a few simple tips to style your web page links in a visually appealing way.
+
+Inheritance in CSS
+- The text describes the process of styling a web page using Arial, Helvetica, and sans-serif fonts. The "body" element is set to Arial, and all HTML elements within it inherit the same Arial font.
+- This is because font-related styles typically inherit, preventing a mishmash of different fonts. However, styles related to the box model, like borders, apply only to the specified element in the style.
+- For example, using a selector "*" to select all elements on the page and apply the border to it instead of the body results in a chaotic web page.
+
+Debugging CSS with borders and background colors
+- To style an element, add a background color or border to reveal hidden information. For example, an unordered list (UL) can be styled with a border to display its full width, revealing its position on the page.
+- The link within a list item (LI) is only as wide as its content, highlighting the distinction between block and inline elements. Block elements, like UL and LI, take up the full width of their container, while inline elements, like links (A), are only as wide as their content.
+- To apply a hover effect to the LI, change the link to an LI (list item) and apply the "LI:hover" selector. This will cover the entire document width, allowing clicking only when hovering over the A element. To fix this issue, add the CSS style "display: block" to the A selector and define a hover state for the link.
+--------------------------------------
